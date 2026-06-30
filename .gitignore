@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# verification artifacts (reproducible, large)
+_capture/shots/
+
+# os / logs
+.DS_Store
+**/.DS_Store
+*.log

@@ -1,0 +1,540 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * capitol:
+ *   - http://typekit.com/eulas/00000000000000007735b446
+ *   - http://typekit.com/eulas/00000000000000007735b44f
+ *   - http://typekit.com/eulas/00000000000000007735b455
+ *   - http://typekit.com/eulas/00000000000000007735b45a
+ * novel-sans-hair:
+ *   - http://typekit.com/eulas/00000000000000007735c1cb
+ *   - http://typekit.com/eulas/00000000000000007735c1fd
+ *   - http://typekit.com/eulas/00000000000000007735c1e8
+ *   - http://typekit.com/eulas/00000000000000007735c206
+ *   - http://typekit.com/eulas/00000000000000007735c216
+ * novel-sans-hair-2:
+ *   - http://typekit.com/eulas/00000000000000007735c1a9
+ *   - http://typekit.com/eulas/00000000000000007735c1c7
+ *   - http://typekit.com/eulas/00000000000000007735c1c0
+ *   - http://typekit.com/eulas/00000000000000007735c1f7
+ *   - http://typekit.com/eulas/00000000000000007735c1cd
+ *   - http://typekit.com/eulas/00000000000000007735c1d2
+ *   - http://typekit.com/eulas/00000000000000007735c1db
+ *   - http://typekit.com/eulas/00000000000000007735c1e7
+ *   - http://typekit.com/eulas/00000000000000007735c1f5
+ *   - http://typekit.com/eulas/00000000000000007735c202
+ * novel-sans-hair-compressed:
+ *   - http://typekit.com/eulas/00000000000000007735c1ca
+ *   - http://typekit.com/eulas/00000000000000007735c1d4
+ *   - http://typekit.com/eulas/00000000000000007735c20d
+ *   - http://typekit.com/eulas/00000000000000007735c214
+ * novel-sans-hair-compressed-2:
+ *   - http://typekit.com/eulas/00000000000000007735c1e0
+ *   - http://typekit.com/eulas/00000000000000007735c1ee
+ *   - http://typekit.com/eulas/00000000000000007735c1fa
+ *   - http://typekit.com/eulas/00000000000000007735c209
+ * novel-sans-hair-condensed:
+ *   - http://typekit.com/eulas/00000000000000007735c1ea
+ *   - http://typekit.com/eulas/00000000000000007735c1f4
+ *   - http://typekit.com/eulas/00000000000000007735c21c
+ *   - http://typekit.com/eulas/00000000000000007735c21e
+ * novel-sans-hair-condensed-2:
+ *   - http://typekit.com/eulas/00000000000000007735c1b1
+ *   - http://typekit.com/eulas/00000000000000007735c1b4
+ *   - http://typekit.com/eulas/00000000000000007735c1ba
+ *   - http://typekit.com/eulas/00000000000000007735c1c3
+ * novel-sans-hair-extra-compre:
+ *   - http://typekit.com/eulas/00000000000000007735c1f2
+ *   - http://typekit.com/eulas/00000000000000007735c200
+ *   - http://typekit.com/eulas/00000000000000007735c21d
+ *   - http://typekit.com/eulas/00000000000000007735c21f
+ *   - http://typekit.com/eulas/00000000000000007735c208
+ *   - http://typekit.com/eulas/00000000000000007735c1e6
+ *   - http://typekit.com/eulas/00000000000000007735c1f0
+ *   - http://typekit.com/eulas/00000000000000007735c1fc
+ * novel-sans-hair-extra-conden:
+ *   - http://typekit.com/eulas/00000000000000007735c1e1
+ *   - http://typekit.com/eulas/00000000000000007735c1cf
+ *   - http://typekit.com/eulas/00000000000000007735c20a
+ *   - http://typekit.com/eulas/00000000000000007735c211
+ *   - http://typekit.com/eulas/00000000000000007735c20f
+ *   - http://typekit.com/eulas/00000000000000007735c1f6
+ *   - http://typekit.com/eulas/00000000000000007735c203
+ *   - http://typekit.com/eulas/00000000000000007735c20e
+ * novel-sans-pro:
+ *   - http://typekit.com/eulas/00000000000000007735c221
+ *   - http://typekit.com/eulas/00000000000000007735c226
+ *   - http://typekit.com/eulas/00000000000000007735c247
+ *   - http://typekit.com/eulas/00000000000000007735c24c
+ * novel-sans-pro-compressed:
+ *   - http://typekit.com/eulas/00000000000000007735c234
+ *   - http://typekit.com/eulas/00000000000000007735c239
+ *   - http://typekit.com/eulas/00000000000000007735c252
+ *   - http://typekit.com/eulas/00000000000000007735c258
+ * novel-sans-pro-extra-compres:
+ *   - http://typekit.com/eulas/00000000000000007735c236
+ *   - http://typekit.com/eulas/00000000000000007735c23c
+ *   - http://typekit.com/eulas/00000000000000007735c254
+ *   - http://typekit.com/eulas/00000000000000007735c259
+ * novel-sans-pro-extra-condens:
+ *   - http://typekit.com/eulas/00000000000000007735c237
+ *   - http://typekit.com/eulas/00000000000000007735c23b
+ *   - http://typekit.com/eulas/00000000000000007735c255
+ *   - http://typekit.com/eulas/00000000000000007735c25a
+ * novel-sanscond-pro:
+ *   - http://typekit.com/eulas/00000000000000007735c220
+ *   - http://typekit.com/eulas/00000000000000007735c225
+ *   - http://typekit.com/eulas/00000000000000007735c24e
+ *   - http://typekit.com/eulas/00000000000000007735c253
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-09-15 13:31:09 UTC"}*/
+
+@import url("/assets/typekit/p.css");
+
+@font-face {
+font-family:"capitol";
+src:url("/assets/typekit/af_13b4e6_00000000000000007735b446_30_l") format("woff2"),url("/assets/typekit/af_13b4e6_00000000000000007735b446_30_d") format("woff"),url("/assets/typekit/af_13b4e6_00000000000000007735b446_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"capitol";
+src:url("/assets/typekit/af_70ec1f_00000000000000007735b44f_30_l") format("woff2"),url("/assets/typekit/af_70ec1f_00000000000000007735b44f_30_d") format("woff"),url("/assets/typekit/af_70ec1f_00000000000000007735b44f_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"capitol";
+src:url("/assets/typekit/af_d7186b_00000000000000007735b455_30_l") format("woff2"),url("/assets/typekit/af_d7186b_00000000000000007735b455_30_d") format("woff"),url("/assets/typekit/af_d7186b_00000000000000007735b455_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"capitol";
+src:url("/assets/typekit/af_f0e972_00000000000000007735b45a_30_l") format("woff2"),url("/assets/typekit/af_f0e972_00000000000000007735b45a_30_d") format("woff"),url("/assets/typekit/af_f0e972_00000000000000007735b45a_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sanscond-pro";
+src:url("/assets/typekit/af_11a4c9_00000000000000007735c220_30_l") format("woff2"),url("/assets/typekit/af_11a4c9_00000000000000007735c220_30_d") format("woff"),url("/assets/typekit/af_11a4c9_00000000000000007735c220_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sanscond-pro";
+src:url("/assets/typekit/af_c47f64_00000000000000007735c225_30_l") format("woff2"),url("/assets/typekit/af_c47f64_00000000000000007735c225_30_d") format("woff"),url("/assets/typekit/af_c47f64_00000000000000007735c225_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sanscond-pro";
+src:url("/assets/typekit/af_c1d033_00000000000000007735c24e_30_l") format("woff2"),url("/assets/typekit/af_c1d033_00000000000000007735c24e_30_d") format("woff"),url("/assets/typekit/af_c1d033_00000000000000007735c24e_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sanscond-pro";
+src:url("/assets/typekit/af_014015_00000000000000007735c253_30_l") format("woff2"),url("/assets/typekit/af_014015_00000000000000007735c253_30_d") format("woff"),url("/assets/typekit/af_014015_00000000000000007735c253_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro";
+src:url("/assets/typekit/af_608136_00000000000000007735c221_30_l") format("woff2"),url("/assets/typekit/af_608136_00000000000000007735c221_30_d") format("woff"),url("/assets/typekit/af_608136_00000000000000007735c221_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro";
+src:url("/assets/typekit/af_c7201e_00000000000000007735c226_30_l") format("woff2"),url("/assets/typekit/af_c7201e_00000000000000007735c226_30_d") format("woff"),url("/assets/typekit/af_c7201e_00000000000000007735c226_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro";
+src:url("/assets/typekit/af_15b3c0_00000000000000007735c247_30_l") format("woff2"),url("/assets/typekit/af_15b3c0_00000000000000007735c247_30_d") format("woff"),url("/assets/typekit/af_15b3c0_00000000000000007735c247_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro";
+src:url("/assets/typekit/af_487ba5_00000000000000007735c24c_30_l") format("woff2"),url("/assets/typekit/af_487ba5_00000000000000007735c24c_30_d") format("woff"),url("/assets/typekit/af_487ba5_00000000000000007735c24c_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair";
+src:url("/assets/typekit/af_326f06_00000000000000007735c1cb_30_l") format("woff2"),url("/assets/typekit/af_326f06_00000000000000007735c1cb_30_d") format("woff"),url("/assets/typekit/af_326f06_00000000000000007735c1cb_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair";
+src:url("/assets/typekit/af_14a787_00000000000000007735c1fd_30_l") format("woff2"),url("/assets/typekit/af_14a787_00000000000000007735c1fd_30_d") format("woff"),url("/assets/typekit/af_14a787_00000000000000007735c1fd_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair";
+src:url("/assets/typekit/af_4bd302_00000000000000007735c1e8_30_l") format("woff2"),url("/assets/typekit/af_4bd302_00000000000000007735c1e8_30_d") format("woff"),url("/assets/typekit/af_4bd302_00000000000000007735c1e8_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair";
+src:url("/assets/typekit/af_eaacda_00000000000000007735c206_30_l") format("woff2"),url("/assets/typekit/af_eaacda_00000000000000007735c206_30_d") format("woff"),url("/assets/typekit/af_eaacda_00000000000000007735c206_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair";
+src:url("/assets/typekit/af_086779_00000000000000007735c216_30_l") format("woff2"),url("/assets/typekit/af_086779_00000000000000007735c216_30_d") format("woff"),url("/assets/typekit/af_086779_00000000000000007735c216_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_98a323_00000000000000007735c1a9_30_l") format("woff2"),url("/assets/typekit/af_98a323_00000000000000007735c1a9_30_d") format("woff"),url("/assets/typekit/af_98a323_00000000000000007735c1a9_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_61f299_00000000000000007735c1c7_30_l") format("woff2"),url("/assets/typekit/af_61f299_00000000000000007735c1c7_30_d") format("woff"),url("/assets/typekit/af_61f299_00000000000000007735c1c7_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_248599_00000000000000007735c1c0_30_l") format("woff2"),url("/assets/typekit/af_248599_00000000000000007735c1c0_30_d") format("woff"),url("/assets/typekit/af_248599_00000000000000007735c1c0_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_bcb62d_00000000000000007735c1f7_30_l") format("woff2"),url("/assets/typekit/af_bcb62d_00000000000000007735c1f7_30_d") format("woff"),url("/assets/typekit/af_bcb62d_00000000000000007735c1f7_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_233a51_00000000000000007735c1cd_30_l") format("woff2"),url("/assets/typekit/af_233a51_00000000000000007735c1cd_30_d") format("woff"),url("/assets/typekit/af_233a51_00000000000000007735c1cd_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_217482_00000000000000007735c1d2_30_l") format("woff2"),url("/assets/typekit/af_217482_00000000000000007735c1d2_30_d") format("woff"),url("/assets/typekit/af_217482_00000000000000007735c1d2_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_3d5bdc_00000000000000007735c1db_30_l") format("woff2"),url("/assets/typekit/af_3d5bdc_00000000000000007735c1db_30_d") format("woff"),url("/assets/typekit/af_3d5bdc_00000000000000007735c1db_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_5fe445_00000000000000007735c1e7_30_l") format("woff2"),url("/assets/typekit/af_5fe445_00000000000000007735c1e7_30_d") format("woff"),url("/assets/typekit/af_5fe445_00000000000000007735c1e7_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_20cc9a_00000000000000007735c1f5_30_l") format("woff2"),url("/assets/typekit/af_20cc9a_00000000000000007735c1f5_30_d") format("woff"),url("/assets/typekit/af_20cc9a_00000000000000007735c1f5_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-2";
+src:url("/assets/typekit/af_0a9d96_00000000000000007735c202_30_l") format("woff2"),url("/assets/typekit/af_0a9d96_00000000000000007735c202_30_d") format("woff"),url("/assets/typekit/af_0a9d96_00000000000000007735c202_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed";
+src:url("/assets/typekit/af_74a371_00000000000000007735c1ca_30_l") format("woff2"),url("/assets/typekit/af_74a371_00000000000000007735c1ca_30_d") format("woff"),url("/assets/typekit/af_74a371_00000000000000007735c1ca_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed";
+src:url("/assets/typekit/af_7b917c_00000000000000007735c1d4_30_l") format("woff2"),url("/assets/typekit/af_7b917c_00000000000000007735c1d4_30_d") format("woff"),url("/assets/typekit/af_7b917c_00000000000000007735c1d4_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed";
+src:url("/assets/typekit/af_9483df_00000000000000007735c20d_30_l") format("woff2"),url("/assets/typekit/af_9483df_00000000000000007735c20d_30_d") format("woff"),url("/assets/typekit/af_9483df_00000000000000007735c20d_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed";
+src:url("/assets/typekit/af_82761a_00000000000000007735c214_30_l") format("woff2"),url("/assets/typekit/af_82761a_00000000000000007735c214_30_d") format("woff"),url("/assets/typekit/af_82761a_00000000000000007735c214_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed-2";
+src:url("/assets/typekit/af_29a48d_00000000000000007735c1e0_30_l") format("woff2"),url("/assets/typekit/af_29a48d_00000000000000007735c1e0_30_d") format("woff"),url("/assets/typekit/af_29a48d_00000000000000007735c1e0_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed-2";
+src:url("/assets/typekit/af_d8a491_00000000000000007735c1ee_30_l") format("woff2"),url("/assets/typekit/af_d8a491_00000000000000007735c1ee_30_d") format("woff"),url("/assets/typekit/af_d8a491_00000000000000007735c1ee_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed-2";
+src:url("/assets/typekit/af_922a57_00000000000000007735c1fa_30_l") format("woff2"),url("/assets/typekit/af_922a57_00000000000000007735c1fa_30_d") format("woff"),url("/assets/typekit/af_922a57_00000000000000007735c1fa_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-compressed-2";
+src:url("/assets/typekit/af_cd1e26_00000000000000007735c209_30_l") format("woff2"),url("/assets/typekit/af_cd1e26_00000000000000007735c209_30_d") format("woff"),url("/assets/typekit/af_cd1e26_00000000000000007735c209_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed";
+src:url("/assets/typekit/af_795d34_00000000000000007735c1ea_30_l") format("woff2"),url("/assets/typekit/af_795d34_00000000000000007735c1ea_30_d") format("woff"),url("/assets/typekit/af_795d34_00000000000000007735c1ea_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed";
+src:url("/assets/typekit/af_a72c48_00000000000000007735c1f4_30_l") format("woff2"),url("/assets/typekit/af_a72c48_00000000000000007735c1f4_30_d") format("woff"),url("/assets/typekit/af_a72c48_00000000000000007735c1f4_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed";
+src:url("/assets/typekit/af_1dc15d_00000000000000007735c21c_30_l") format("woff2"),url("/assets/typekit/af_1dc15d_00000000000000007735c21c_30_d") format("woff"),url("/assets/typekit/af_1dc15d_00000000000000007735c21c_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed";
+src:url("/assets/typekit/af_661991_00000000000000007735c21e_30_l") format("woff2"),url("/assets/typekit/af_661991_00000000000000007735c21e_30_d") format("woff"),url("/assets/typekit/af_661991_00000000000000007735c21e_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed-2";
+src:url("/assets/typekit/af_6511da_00000000000000007735c1b1_30_l") format("woff2"),url("/assets/typekit/af_6511da_00000000000000007735c1b1_30_d") format("woff"),url("/assets/typekit/af_6511da_00000000000000007735c1b1_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed-2";
+src:url("/assets/typekit/af_487a65_00000000000000007735c1b4_30_l") format("woff2"),url("/assets/typekit/af_487a65_00000000000000007735c1b4_30_d") format("woff"),url("/assets/typekit/af_487a65_00000000000000007735c1b4_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed-2";
+src:url("/assets/typekit/af_aff835_00000000000000007735c1ba_30_l") format("woff2"),url("/assets/typekit/af_aff835_00000000000000007735c1ba_30_d") format("woff"),url("/assets/typekit/af_aff835_00000000000000007735c1ba_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-condensed-2";
+src:url("/assets/typekit/af_ebb8ae_00000000000000007735c1c3_30_l") format("woff2"),url("/assets/typekit/af_ebb8ae_00000000000000007735c1c3_30_d") format("woff"),url("/assets/typekit/af_ebb8ae_00000000000000007735c1c3_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_ba499a_00000000000000007735c1f2_30_l") format("woff2"),url("/assets/typekit/af_ba499a_00000000000000007735c1f2_30_d") format("woff"),url("/assets/typekit/af_ba499a_00000000000000007735c1f2_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_c9faaf_00000000000000007735c200_30_l") format("woff2"),url("/assets/typekit/af_c9faaf_00000000000000007735c200_30_d") format("woff"),url("/assets/typekit/af_c9faaf_00000000000000007735c200_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_ffcf1d_00000000000000007735c21d_30_l") format("woff2"),url("/assets/typekit/af_ffcf1d_00000000000000007735c21d_30_d") format("woff"),url("/assets/typekit/af_ffcf1d_00000000000000007735c21d_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_6a6946_00000000000000007735c21f_30_l") format("woff2"),url("/assets/typekit/af_6a6946_00000000000000007735c21f_30_d") format("woff"),url("/assets/typekit/af_6a6946_00000000000000007735c21f_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_e70760_00000000000000007735c208_30_l") format("woff2"),url("/assets/typekit/af_e70760_00000000000000007735c208_30_d") format("woff"),url("/assets/typekit/af_e70760_00000000000000007735c208_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_e57c33_00000000000000007735c1e6_30_l") format("woff2"),url("/assets/typekit/af_e57c33_00000000000000007735c1e6_30_d") format("woff"),url("/assets/typekit/af_e57c33_00000000000000007735c1e6_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_7f28ed_00000000000000007735c1f0_30_l") format("woff2"),url("/assets/typekit/af_7f28ed_00000000000000007735c1f0_30_d") format("woff"),url("/assets/typekit/af_7f28ed_00000000000000007735c1f0_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-compre";
+src:url("/assets/typekit/af_0e6ebb_00000000000000007735c1fc_30_l") format("woff2"),url("/assets/typekit/af_0e6ebb_00000000000000007735c1fc_30_d") format("woff"),url("/assets/typekit/af_0e6ebb_00000000000000007735c1fc_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_1eb07d_00000000000000007735c1e1_30_l") format("woff2"),url("/assets/typekit/af_1eb07d_00000000000000007735c1e1_30_d") format("woff"),url("/assets/typekit/af_1eb07d_00000000000000007735c1e1_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_7e58e9_00000000000000007735c1cf_30_l") format("woff2"),url("/assets/typekit/af_7e58e9_00000000000000007735c1cf_30_d") format("woff"),url("/assets/typekit/af_7e58e9_00000000000000007735c1cf_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_409eee_00000000000000007735c20a_30_l") format("woff2"),url("/assets/typekit/af_409eee_00000000000000007735c20a_30_d") format("woff"),url("/assets/typekit/af_409eee_00000000000000007735c20a_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_97db78_00000000000000007735c211_30_l") format("woff2"),url("/assets/typekit/af_97db78_00000000000000007735c211_30_d") format("woff"),url("/assets/typekit/af_97db78_00000000000000007735c211_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_0f93b7_00000000000000007735c20f_30_l") format("woff2"),url("/assets/typekit/af_0f93b7_00000000000000007735c20f_30_d") format("woff"),url("/assets/typekit/af_0f93b7_00000000000000007735c20f_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_5f55ac_00000000000000007735c1f6_30_l") format("woff2"),url("/assets/typekit/af_5f55ac_00000000000000007735c1f6_30_d") format("woff"),url("/assets/typekit/af_5f55ac_00000000000000007735c1f6_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_2da2c4_00000000000000007735c203_30_l") format("woff2"),url("/assets/typekit/af_2da2c4_00000000000000007735c203_30_d") format("woff"),url("/assets/typekit/af_2da2c4_00000000000000007735c203_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-hair-extra-conden";
+src:url("/assets/typekit/af_1b9697_00000000000000007735c20e_30_l") format("woff2"),url("/assets/typekit/af_1b9697_00000000000000007735c20e_30_d") format("woff"),url("/assets/typekit/af_1b9697_00000000000000007735c20e_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-compressed";
+src:url("/assets/typekit/af_22efae_00000000000000007735c234_30_l") format("woff2"),url("/assets/typekit/af_22efae_00000000000000007735c234_30_d") format("woff"),url("/assets/typekit/af_22efae_00000000000000007735c234_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-compressed";
+src:url("/assets/typekit/af_efb83f_00000000000000007735c239_30_l") format("woff2"),url("/assets/typekit/af_efb83f_00000000000000007735c239_30_d") format("woff"),url("/assets/typekit/af_efb83f_00000000000000007735c239_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-compressed";
+src:url("/assets/typekit/af_b470e8_00000000000000007735c252_30_l") format("woff2"),url("/assets/typekit/af_b470e8_00000000000000007735c252_30_d") format("woff"),url("/assets/typekit/af_b470e8_00000000000000007735c252_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-compressed";
+src:url("/assets/typekit/af_01ec57_00000000000000007735c258_30_l") format("woff2"),url("/assets/typekit/af_01ec57_00000000000000007735c258_30_d") format("woff"),url("/assets/typekit/af_01ec57_00000000000000007735c258_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-compres";
+src:url("/assets/typekit/af_d57169_00000000000000007735c236_30_l") format("woff2"),url("/assets/typekit/af_d57169_00000000000000007735c236_30_d") format("woff"),url("/assets/typekit/af_d57169_00000000000000007735c236_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-compres";
+src:url("/assets/typekit/af_bed4c6_00000000000000007735c23c_30_l") format("woff2"),url("/assets/typekit/af_bed4c6_00000000000000007735c23c_30_d") format("woff"),url("/assets/typekit/af_bed4c6_00000000000000007735c23c_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-compres";
+src:url("/assets/typekit/af_4ead51_00000000000000007735c254_30_l") format("woff2"),url("/assets/typekit/af_4ead51_00000000000000007735c254_30_d") format("woff"),url("/assets/typekit/af_4ead51_00000000000000007735c254_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-compres";
+src:url("/assets/typekit/af_6e6cc7_00000000000000007735c259_30_l") format("woff2"),url("/assets/typekit/af_6e6cc7_00000000000000007735c259_30_d") format("woff"),url("/assets/typekit/af_6e6cc7_00000000000000007735c259_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-condens";
+src:url("/assets/typekit/af_336f8f_00000000000000007735c237_30_l") format("woff2"),url("/assets/typekit/af_336f8f_00000000000000007735c237_30_d") format("woff"),url("/assets/typekit/af_336f8f_00000000000000007735c237_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-condens";
+src:url("/assets/typekit/af_473eb9_00000000000000007735c23b_30_l") format("woff2"),url("/assets/typekit/af_473eb9_00000000000000007735c23b_30_d") format("woff"),url("/assets/typekit/af_473eb9_00000000000000007735c23b_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-condens";
+src:url("/assets/typekit/af_313691_00000000000000007735c255_30_l") format("woff2"),url("/assets/typekit/af_313691_00000000000000007735c255_30_d") format("woff"),url("/assets/typekit/af_313691_00000000000000007735c255_30_a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"novel-sans-pro-extra-condens";
+src:url("/assets/typekit/af_fefffe_00000000000000007735c25a_30_l") format("woff2"),url("/assets/typekit/af_fefffe_00000000000000007735c25a_30_d") format("woff"),url("/assets/typekit/af_fefffe_00000000000000007735c25a_30_a") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+.tk-capitol { font-family: "capitol",sans-serif; }
+.tk-novel-sanscond-pro { font-family: "novel-sanscond-pro",sans-serif; }
+.tk-novel-sans-pro { font-family: "novel-sans-pro",sans-serif; }
+.tk-novel-sans-hair { font-family: "novel-sans-hair",sans-serif; }
+.tk-novel-sans-hair-2 { font-family: "novel-sans-hair-2",sans-serif; }
+.tk-novel-sans-hair-compressed { font-family: "novel-sans-hair-compressed",sans-serif; }
+.tk-novel-sans-hair-compressed-2 { font-family: "novel-sans-hair-compressed-2",sans-serif; }
+.tk-novel-sans-hair-condensed { font-family: "novel-sans-hair-condensed",sans-serif; }
+.tk-novel-sans-hair-condensed-2 { font-family: "novel-sans-hair-condensed-2",sans-serif; }
+.tk-novel-sans-hair-extra-compre { font-family: "novel-sans-hair-extra-compre",sans-serif; }
+.tk-novel-sans-hair-extra-compre { font-family: "novel-sans-hair-extra-compre",sans-serif; }
+.tk-novel-sans-hair-extra-conden { font-family: "novel-sans-hair-extra-conden",sans-serif; }
+.tk-novel-sans-hair-extra-conden { font-family: "novel-sans-hair-extra-conden",sans-serif; }
+.tk-novel-sans-pro-compressed { font-family: "novel-sans-pro-compressed",sans-serif; }
+.tk-novel-sans-pro-extra-compres { font-family: "novel-sans-pro-extra-compres",sans-serif; }
+.tk-novel-sans-pro-extra-condens { font-family: "novel-sans-pro-extra-condens",sans-serif; }
