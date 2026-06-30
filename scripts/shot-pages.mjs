@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+const URL = process.argv[2] || 'https://calibg.github.io/aurorashouse-restore/';
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport: { width: 1440, height: 900 } });
+const p = await ctx.newPage();
+await p.goto(URL, { waitUntil: 'networkidle', timeout: 60000 });
+await p.evaluate(async () => { await new Promise(r => { let y = 0; const t = setInterval(() => { window.scrollBy(0, 600); y += 600; if (y > document.body.scrollHeight + 1000) { clearInterval(t); r(); } }, 40); }); window.scrollTo(0, 0); });
+await p.waitForTimeout(1500);
+await p.screenshot({ path: '_capture/shots/PAGES-live-home.png', fullPage: true });
+console.log('shot saved');
+await b.close();

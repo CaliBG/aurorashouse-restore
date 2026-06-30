@@ -1,5 +1,7 @@
 # Aurora's House — source reconstruction
 
+**Live (this rebuild):** https://calibg.github.io/aurorashouse-restore/
+
 Reconstruction of the deployed personal portfolio **https://aurorashouse.webflow.io**
 ("Aurora's House") from its live production build, after the original source was lost to a
 disk failure. The site was built in **Webflow**; since Webflow publishes static
@@ -47,3 +49,21 @@ See the command block at the bottom of `_analysis/progress.md`.
 ```bash
 npm install        # only if you want to re-run capture/verify (Playwright)
 ```
+
+## Deploy / redeploy to GitHub Pages
+The site is served from the **`gh-pages`** branch (repo root), with all root-relative paths
+rewritten to the `/aurorashouse-restore/` project subpath by `scripts/05-prefix-for-pages.py`.
+`main` keeps the clean root-relative `src/` for local preview. To redeploy after changing
+`src/`:
+```bash
+WT=../.aurora-ghp
+git worktree add --orphan -b gh-pages-tmp "$WT" && git -C "$WT" checkout main -- src
+( cd "$WT" && shopt -s dotglob && mv src/* . && rmdir src )
+python3 scripts/05-prefix-for-pages.py "/aurorashouse-restore" "$WT"
+git -C "$WT" add -A && git -C "$WT" reset --soft main \
+  && git -C "$WT" commit -m "deploy" && git -C "$WT" push -f origin gh-pages-tmp:gh-pages
+git worktree remove --force "$WT"
+```
+(A `.github/workflows/pages.yml` Actions deploy is the cleaner long-term option but needs a
+token with the `workflow` scope — the current push token lacks it.)
+
